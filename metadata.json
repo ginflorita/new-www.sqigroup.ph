@@ -1,0 +1,6 @@
+{
+  "name": "SQI Group Philippines - Catalog & Product Discovery",
+  "description": "Official product catalog and discovery platform for SQI Group Int'l. Corp. – Philippines. Premium distributor and supplier of school, office, stationery, and arts & crafts products since 1987.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
