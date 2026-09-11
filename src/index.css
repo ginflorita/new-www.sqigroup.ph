@@ -336,7 +336,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 100;
-  height: var(--sqi-header-height);
+  min-height: var(--sqi-header-height);
+  padding-top: 12px;
   background-color: rgba(250, 247, 242, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -348,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
+  height: var(--sqi-header-height);
 }
 
 .sqi-logo-link {
