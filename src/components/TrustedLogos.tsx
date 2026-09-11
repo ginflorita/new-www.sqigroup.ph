@@ -324,11 +324,11 @@ export const GaisanoGrandLogo: React.FC<{ height?: number }> = ({ height = 36 })
 // Continuous Sliding Logo Marquee Component
 export const TrustedByMarquee: React.FC = () => {
   const logos = [
-    { name: 'National Book Store', component: <NationalBookStoreLogo height={34} /> },
-    { name: 'Pandayan Bookshop', component: <PandayanLogo height={32} /> },
-    { name: 'Office Warehouse', component: <OfficeWarehouseLogo height={38} /> },
-    { name: 'Expressions', component: <ExpressionsLogo height={34} /> },
-    { name: 'Gaisano Grand Group', component: <GaisanoGrandLogo height={34} /> },
+    { name: 'National Book Store', component: <NationalBookStoreLogo height={54} /> },
+    { name: 'Pandayan Bookshop', component: <PandayanLogo height={50} /> },
+    { name: 'Office Warehouse', component: <OfficeWarehouseLogo height={60} /> },
+    { name: 'Expressions', component: <ExpressionsLogo height={54} /> },
+    { name: 'Gaisano Grand Group', component: <GaisanoGrandLogo height={54} /> },
   ];
 
   return (

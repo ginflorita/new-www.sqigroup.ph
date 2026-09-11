@@ -699,12 +699,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sqi-audiences-label {
-  font-size: 1.15rem;
+  font-size: 1.6rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   color: var(--sqi-orange);
-  margin-bottom: 18px;
+  margin-bottom: 22px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -731,7 +731,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sqi-trusted-fullwidth-pills {
   width: 100%;
-  padding: 18px 0;
+  padding: 30px 0;
 }
 
 .sqi-trusted-marquee-wrap {
@@ -745,7 +745,7 @@ h1, h2, h3, h4, h5, h6 {
 .sqi-trusted-marquee-track {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 80px;
   width: max-content;
   animation: sqiInfiniteLogoSlide 28s linear infinite;
   will-change: transform;
