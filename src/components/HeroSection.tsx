@@ -27,6 +27,12 @@ const BANNER_SLIDES: BannerSlide[] = [
     fallbackImage: '/by-www.ginflorita.com 3.png',
     alt: "SQI Group Philippines - Wholesale Stationery, Art & School Supplies",
   },
+  {
+    id: 'banner-3',
+    image: '/by-www.ginflorita.com.jpg',
+    fallbackImage: '/by-www.ginflorita.com.jpg',
+    alt: "SQI Group Philippines - Trusted Wholesale Partner for School, Office, and Art Materials",
+  },
 ];
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ onExplore }) => {
