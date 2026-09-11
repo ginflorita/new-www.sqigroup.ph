@@ -359,42 +359,10 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.sqi-logo-mark {
-  width: 44px;
-  height: 44px;
-  background: linear-gradient(135deg, #f97316 0%, #e45b12 50%, #c2410c 100%);
-  color: #ffffff;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--sqi-font-heading);
-  font-weight: 900;
-  font-size: 1.35rem;
-  letter-spacing: -0.05em;
-  box-shadow: 0 4px 12px rgba(228, 91, 18, 0.25);
-}
-
-.sqi-logo-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.sqi-logo-title {
-  font-family: var(--sqi-font-heading);
-  font-size: 1.28rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--sqi-text-primary);
-  line-height: 1.1;
-}
-
-.sqi-logo-subtitle {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--sqi-orange);
+.sqi-logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 
 .sqi-nav-desktop {
@@ -731,12 +699,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sqi-audiences-label {
-  font-size: 0.78rem;
+  font-size: 1.15rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   color: var(--sqi-orange);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   display: flex;
   align-items: center;
   gap: 12px;

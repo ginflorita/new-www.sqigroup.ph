@@ -45,13 +45,7 @@ export const Header: React.FC<HeaderProps> = ({
               }}
               id="header-logo-link"
             >
-              <div className="sqi-logo-mark">
-                SQI
-              </div>
-              <div className="sqi-logo-text">
-                <span className="sqi-logo-title">SQI Group</span>
-                <span className="sqi-logo-subtitle">Philippines • Est. 1987</span>
-              </div>
+              <img src="/SQI-PHILIPPINES.png" alt="SQI Group Philippines" className="sqi-logo-img" />
             </a>
 
             {/* Desktop Navigation */}
@@ -132,13 +126,7 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <div className="sqi-drawer-header">
             <div className="sqi-logo-link">
-              <div className="sqi-logo-mark" style={{ width: '38px', height: '38px', fontSize: '1.15rem' }}>
-                SQI
-              </div>
-              <div className="sqi-logo-text">
-                <span className="sqi-logo-title" style={{ fontSize: '1.1rem' }}>SQI Group</span>
-                <span className="sqi-logo-subtitle">Philippines</span>
-              </div>
+              <img src="/SQI-PHILIPPINES.png" alt="SQI Group Philippines" className="sqi-logo-img" style={{ height: '36px' }} />
             </div>
             <button
               type="button"
